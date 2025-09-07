@@ -13,7 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/cart")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://toykart.netlify.app")
 @RequiredArgsConstructor
 public class CartController {
 
