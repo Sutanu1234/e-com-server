@@ -56,7 +56,7 @@ public class SecurityConfig {
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowCredentials(true);
-        config.setAllowedOriginPatterns(Arrays.asList("http://localhost:5173", "https://toykart.netlify.app")); // frontend origin
+        config.setAllowedOriginPatterns(Arrays.asList("https://toykart.netlify.app")); // frontend origin
         // config.setAllowedHeaders(Arrays.asList("*"));
         config.setAllowedHeaders(Arrays.asList("Authorization", "Content-Type", "Accept"));
         config.setExposedHeaders(Arrays.asList("Authorization"));
